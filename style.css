@@ -3,3 +3,40 @@ body {
   height: 100%;
   margin: 0;
 }
+
+h1 {
+  text-align: center;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+nav.navigation {
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: aqua;
+}
+figcaption {
+  font-size: smaller;
+  text-align: center;
+}
+p#featured-property {
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+}
+
+div {
+  float: left;
+  text-align: center;
+  display: inline-block;
+  *display: inline; /* For IE7 */
+  zoom: 1; /* Trigger hasLayout */
+  width: 25%;
+  text-align: center;
+  background-color: yellow;
+}
